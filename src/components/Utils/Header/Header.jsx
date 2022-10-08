@@ -1,3 +1,6 @@
+import * as React from "react";
+import "./Header.css";
+
 function Header() {
   return (
     <header>
@@ -9,6 +12,7 @@ function Header() {
             alt="logo du site fc junior"
           />
         </a>
+
         <nav class="header__nav nav">
           <ul>
             <li class="nav__link">
@@ -61,5 +65,4 @@ function Header() {
     </header>
   );
 }
-
 export default Header;

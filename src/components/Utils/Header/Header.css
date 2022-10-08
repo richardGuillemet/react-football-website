@@ -1,0 +1,131 @@
+*, ::before, ::after{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 62.5%;
+	--noir : #000000;
+	--blanc : #FFFFFF;
+	--vert : #00F4BA;
+	--bleu : #02B9F5;
+	background-color: var(--noir);
+	font-display: block;
+}
+
+header{
+	background: no-repeat center 45%/ cover url(../../../assets/images/header.jpg);
+	height: 100vh;
+	font-family: 'Bitter', serif;
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem;
+	align-items: center;
+}
+
+
+.header__picture{
+	width: 10rem;
+	height: 10rem;
+}
+
+/* .header__nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.nav__link a{
+	text-decoration: none;
+	color: var(--blanc);
+	margin: 0 2rem;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.nav__link a:hover{
+	color: var(--vert);
+	text-decoration: underline;
+	font-weight: bold;
+} */
+
+.header__search{
+	align-items: center;
+	justify-content: center;
+}
+
+.search__input{
+	border-radius: 2rem;
+	padding: 1rem;
+}
+
+.search__button{
+	font-size: 3rem;
+	background-color: rgba(0, 0, 0, 0);
+	color: var(--bleu);
+	border: none;
+	margin-left: 1rem;
+}
+
+.search__button:hover, .interaction-shopping-basket:hover{
+	color: var(--vert);
+}
+
+.interaction-connexion{
+	background-color: var(--vert);
+	padding: 1rem;
+	border-radius: 2rem;
+	margin: 0 2rem;
+}
+
+.interaction-connexion:hover{
+	background-color: var(--bleu);
+}
+
+.interaction-shopping-basket{
+	font-size: 3rem;
+	background-color: rgba(160, 54, 54, 0);
+	color: var(--bleu);
+	border: none;
+	margin-left: 1rem;
+}
+
+
+
+.interaction-connexion a{
+	color: var(--noir);
+	text-decoration: none;
+	padding: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.introduction{
+	position: absolute;
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, 0%);
+	text-align: center;
+	color: var(--blanc);
+	font-size: 4rem;
+}
+
+.introduction__title{
+	display: block;
+	font-weight: bold;
+	text-shadow:  0rem 1rem 0.5rem var(--noir);
+	margin-bottom: 1rem;
+}
+
+main{
+	width: 90%;
+	margin: auto;
+	color: var(--blanc);
+
+}

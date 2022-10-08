@@ -1,15 +1,14 @@
-
-// import './App.css';
-import Michel from '../src/components/Utils/Doctype';
-import Header from '../src/components/Utils/Header';
+import Header from '../src/components/Utils/Header/Header';
+import Footer from './components/Utils/Footer/Footer';
 
 function App() {
   return (
-    <body>
-      <Michel />
+    <div>
       <Header />
+      <Footer />
 
-    </body>
+    </div>
+
   )
 }
 
