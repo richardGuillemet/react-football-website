@@ -12,7 +12,7 @@ function Home() {
           (peut-être plus tard). Le site n’est pas responsive, j’ai décidé de me
           concentrer uniquement sur la version desktop. Les projets qui en
           découleront ne seront jamais officiels et me serviront juste de prise
-          en main et d’entrainement sur les technos.
+          en main et d’entrainement sur les technos !!!
         </p>
       </section>
 
