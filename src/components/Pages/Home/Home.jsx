@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <main>
+    <div>
       <section id="presentation" class="presentation">
         <h1 class="titleH1 presentation__title">
           Bienvenue sur le site du FC Junior
@@ -156,7 +156,7 @@ function Home() {
           </button>
         </div>
       </section>
-    </main>
+    </div>
   );
 }
 export default Home;

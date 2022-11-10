@@ -8,15 +8,10 @@ function App() {
     <div>
       <Header />
       <main>
-
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
-
       </main>
-
-
-
       <Footer />
     </div >
 
